@@ -328,7 +328,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'agency',
         wordCount: 300,
         hook: 'The same materials used in {famousMuseum} restoration - now available to artists',
-        body: 'Sourced from {origin} and processed using {traditionalMethod}. {pigmentQuality}. {lightfastness}. {customization}. Includes {artistResidency}, {techniqueWorkshops}, and {collectorNetwork}. {masterEndorsement}.',
+        body: 'Sourced from {origin} and processed using {artTraditionalMethod}. {pigmentQuality}. {lightfastness}. {customization}. Includes {artistResidency}, {techniqueWorkshops}, and {collectorNetwork}. {masterEndorsement}.',
         cta: 'Join the master artists - exclusive access',
         powerWords: ['museum-grade', 'archival', 'master', 'heritage', 'bespoke']
       }
@@ -390,7 +390,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'pro',
         wordCount: 150,
         hook: 'The piece that becomes your signature style',
-        body: 'Handcrafted from {material} with {craftsmanship}. {designDetails}. {comfort}. {versatility}. {meaning}. {testimonial}. {guarantee}.',
+        body: 'Handcrafted from {material} with {craftsmanship}. {designDetails}. {comfort}. {versatility}. {jewelryMeaning}. {testimonial}. {guarantee}.',
         cta: 'Find your signature piece',
         powerWords: ['handcrafted', 'artisanal', 'timeless', 'heirloom-quality']
       },
@@ -487,7 +487,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'free',
         wordCount: 80,
         hook: 'Experience {taste} with {productName}',
-        body: '{productName} is made with {ingredient} for {benefit}. Perfect for {occasion}. {quantity}.',
+        body: '{productName} is made with {foodIngredient} for {benefit}. Perfect for {occasion}. {quantity}.',
         cta: 'Taste the difference',
         powerWords: ['delicious', 'natural', 'authentic']
       },
@@ -495,14 +495,14 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'pro',
         wordCount: 150,
         hook: 'From {origin} to your table - taste the authentic difference',
-        body: 'Crafted in {location} using {traditionalMethod}. {tasteProfile}. {pairing}. {awards}. {chefEndorsement}. {subscription}.',
+        body: 'Crafted in {location} using {foodTraditionalMethod}. {tasteProfile}. {pairing}. {foodAwards}. {chefEndorsement}. {subscription}.',
         cta: 'Elevate your dining',
         powerWords: ['artisanal', 'gourmet', 'authentic', 'small-batch']
       },
       {
         tier: 'agency',
         wordCount: 300,
-        hook: 'A {timeframe} tradition from {familyName} - now available to connoisseurs',
+        hook: 'A {foodTimeframe} tradition from {familyName} - now available to connoisseurs',
         body: 'Produced in {limitedRegion} using {heritageMethod}. {terroir}. {rareIngredients}. {production}. Includes {tastingNotes}, {pairingGuide}, and {chefCollaboration}. {exclusiveReleases}. {collectorSociety}.',
         cta: 'Join the culinary society - exclusive membership',
         powerWords: ['heritage', 'terroir', 'connoisseur', 'collectible', 'prestige']
@@ -565,7 +565,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'pro',
         wordCount: 150,
         hook: 'The gift they\'ll remember long after {occasion} is over',
-        body: 'Curated for {recipientType} with {meaning}. {quality}. {presentation}. {personalization}. {testimonial}. {satisfactionGuarantee}.',
+        body: 'Curated for {recipientType} with {giftMeaning}. {quality}. {presentation}. {personalization}. {testimonial}. {satisfactionGuarantee}.',
         cta: 'Give unforgettable',
         powerWords: ['thoughtful', 'meaningful', 'luxurious', 'curated']
       },
@@ -592,7 +592,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'free',
         wordCount: 80,
         hook: 'Support your {healthGoal} with {productName}',
-        body: '{productName} helps with {benefit}. Made with {ingredient}. {usage}.',
+        body: '{productName} helps with {benefit}. Made with {healthIngredient}. {usage}.',
         cta: 'Start your wellness journey',
         powerWords: ['natural', 'effective', 'healthy']
       },
@@ -635,7 +635,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'pro',
         wordCount: 150,
         hook: 'The instrument that grows with you from beginner to pro',
-        body: 'Crafted with {materials} for {tone}. {playability}. {durability}. Used by {artistType}. {testimonial}. {warranty}.',
+        body: 'Crafted with {materials} for {tone}. {playability}. {durability}. Used by {musicArtistType}. {testimonial}. {warranty}.',
         cta: 'Elevate your music',
         powerWords: ['professional', 'concert-grade', 'resonant', 'expressive']
       },
@@ -662,7 +662,7 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'free',
         wordCount: 80,
         hook: 'Capture perfect moments with {productName}',
-        body: '{productName} delivers {quality} for {useCase}. Features {feature}. {compatibility}.',
+        body: '{productName} delivers {quality} for {photoUseCase}. Features {feature}. {compatibility}.',
         cta: 'Start creating',
         powerWords: ['sharp', 'versatile', 'creative']
       },
@@ -670,3 +670,21 @@ export const ProductIntelligenceDB: Record<string, ProductCategory> = {
         tier: 'pro',
         wordCount: 150,
         hook: 'The gear that turns snapshots into art',
+        body: 'Featuring {optics} and {sensor}, {productName} delivers {imageQuality}. {lowLight}. {videoCapability}. {stabilization}. Perfect for {photographerType}. {testimonial}.',
+        cta: 'Elevate your photography',
+        powerWords: ['professional-grade', 'high-resolution', 'versatile', 'stunning']
+      },
+      {
+        tier: 'agency',
+        wordCount: 300,
+        hook: 'The same equipment used by {famousPhotographer} on {iconicShoot}',
+        body: 'Engineered with {opticalEngineering} and {sensorTechnology}. {professionalSpecs}. {colorScience}. {customization}. Includes {workshopAccess}, {mentorship}, and {professionalNetwork}. {masterEndorsement}. {equipmentInsurance}.',
+        cta: 'Join the masters - exclusive professional network',
+        powerWords: ['masterpiece', 'professional', 'iconic', 'bespoke', 'legendary']
+      }
+    ],
+    features: ['high resolution', 'fast autofocus', 'stabilization', '4K video', 'professional'],
+    benefits: ['stunning images', 'creative freedom', 'professional results', 'versatility', 'confidence'],
+    keywords: ['camera', 'lens', 'photography', 'professional', 'photo', 'video']
+  }
+};
